@@ -1,5 +1,5 @@
 # Budgety
-<strong>A simple budget app made using HTML5, CSS3 &amp; JavaScript. The app can be used [here](https://priceless-boyd-d60475.netlify.com).</strong>
+<strong>A simple budget app made using HTML5, CSS3 &amp; JavaScript. The app can be used [here](https://budgety-ram.netlify.com/).</strong>
 
 How to use the app
 - Plus sign (+) signifies "Income" & the Minus sign (-) signifies "Expense"
