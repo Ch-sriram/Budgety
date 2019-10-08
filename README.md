@@ -26,6 +26,3 @@ Some of the concepts I've garnered/understood while working on this project are 
     - Understanding of <code>parentNode</code> property
     - What a NodeList is and how to traverse it
   - The <code>Date()</code> Constructor and its uses
-
-
-*Note: Deployment environment (i.e., netlify) of the app does not allow scripts to be loaded from ionic framework, therefore, please enable the "Load Unsafe Scripts" option in your respective browser, or else, download this repo as a zip file and open index.html to run the app in its full glory.*
