@@ -24,5 +24,5 @@ Some of the concepts I've garnered/understood while working on this project are 
     - Understanding of certain events like <code>keypress</code>, <code>change</code>, <code>click</code>, etc
     - Understanding the usage of certain methods like <code>innerAdjacentHTML()</code>, <code>removeChild()</code>, <code>querySelectorAll()</code>, etc
     - Understanding of <code>parentNode</code> property
-    - What a NodeList is and how to traverse it
+    - What a <code>NodeList</code> is and how to traverse it
   - The <code>Date()</code> Constructor and its uses
