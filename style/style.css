@@ -280,3 +280,33 @@ h2 {
 .unpaid .item__percentage { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1); }
 .unpaid:hover .item__description { font-weight: 900; }
 
+.github-icon {
+    position: fixed;
+    z-index: 99 !important;
+    border: 5rem;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    font-size: 3rem;
+    background: none;
+    border: none;
+    color: #000;
+    text-decoration: none;
+    filter: invert(100%);
+}
+
+.github-icon:active {
+    transform: translateY(2px);
+}
+
+.github-icon:focus { outline: none; }
+
+#github-text {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin: auto;
+}
