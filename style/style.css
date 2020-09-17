@@ -281,33 +281,38 @@ h2 {
 .unpaid:hover .item__description { font-weight: 900; }
 
 .github-icon {
+    display: inline-flex;
+    align-items: center;
     position: fixed;
-    z-index: 99 !important;
-    border: 5rem;
+    z-index: 999 !important;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
     cursor: pointer;
-    top: 0;
-    right: 0;
+    bottom: 85%;
+    right: -80px;
     padding: 1rem;
     font-size: 3rem;
     background: none;
-    border: none;
     color: #000;
     text-decoration: none;
+    filter: invert(80%);
+    transition: all .3s ease-in-out;
+}
+
+.github-icon:hover { 
+    right: -1%; 
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.35);
     filter: invert(100%);
+    border-right: none;
 }
 
-.github-icon:active {
-    transform: translateY(2px);
-}
 
+.github-icon:active { transform: translateY(2px); }
 .github-icon:focus { outline: none; }
+.github-icon > ion-icon { pointer-events: none; }
 
-#github-text {
-    font-size: 1rem;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    border: none;
-    margin: auto;
-    font-family: monospace;
+.github-icon > p {
+    font: 1rem 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
